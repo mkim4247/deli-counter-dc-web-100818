@@ -14,17 +14,7 @@ def line(array)
   elsif array.length == 0 
     puts "The line is currently empty." 
   end 
-
 end 
-
-# function currentLine(line) {
-#   if (line.length>0) {
-#     var deli = []
-#     for (var i = 0; i < line.length; i++) {
-#       deli.push(` ${i+1}. ${line[i]}`);
-#     }
-#     return `The line is currently:${deli}`;
-
 
 def take_a_number(line, name)
   line.push(name)
