@@ -20,6 +20,6 @@ def take_a_number(current_line, new_person_name)
 end
 
 def now_serving(line_array)
-  puts "Currently serving #{line_array.first}"
+  puts "Currently serving #{line_array.first}."
   
 end
