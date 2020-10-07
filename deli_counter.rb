@@ -20,6 +20,9 @@ def take_a_number(current_line, new_person_name)
 end
 
 def now_serving(line_array)
-  puts "Currently serving #{line_array.first}."
+  if line_array > 0
+    puts "Currently serving #{line_array.first}."
+  else
+    puts "The line is currently empty."
   
 end
