@@ -8,10 +8,11 @@ def line(line_array)
     line_array.each_with_index do |name, index|
       new_array << "#{index+1}. #{name}"
     end
+    puts "The line is currently: #{new_array.join(" ")}"
   else
     puts "The line is currently empty."
   end
-  puts "The line is currently: #{new_array.join(" ")}"
+  
 end
 
 def take_a_number(current_line, new_person_name)
