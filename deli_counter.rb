@@ -16,7 +16,7 @@ end
 
 def take_a_number(current_line, new_person_name)
   current_line.push(new_person_name)
-  puts "Welcome, #{name}. You are number #{current_line.index(name)+1} in line."
+  puts "Welcome, #{new_person_name}. You are number #{current_line.index(new_person_name)+1} in line."
   end
 end
 
