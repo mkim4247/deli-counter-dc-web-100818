@@ -21,4 +21,5 @@ end
 
 def now_serving(line_array)
   puts "Currently serving #{line_array.first}"
+  
 end
