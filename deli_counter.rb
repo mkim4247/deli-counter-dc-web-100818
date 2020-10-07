@@ -11,7 +11,7 @@ def line(line_array)
   else
     puts "The line is currently empty."
   end
-  puts "The line is currently: #{new_array.join( )}"
+  puts "The line is currently: #{new_array.join(" ")}"
 end
 
 def take_a_number(current_line, new_person_name)
