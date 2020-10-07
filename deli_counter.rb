@@ -25,5 +25,5 @@ def now_serving(line_array)
     line_array.shift
   else
     puts "The line is currently empty."
-  
+  end
 end
