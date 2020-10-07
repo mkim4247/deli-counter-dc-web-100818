@@ -15,7 +15,7 @@ def line(line_array)
 end
 
 def take_a_number(current_line, new_person_name)
-  current_line << new_person_name
+  current_line.push(new_person_name)
   current_line.each_with_index do |name, index|
     puts "Welcome, #{name}. You are number #{index+1} in line."
   end
